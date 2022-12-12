@@ -1,0 +1,17 @@
+$nav-bg: #7F5539;
+$nav-link: #e6ccb2;
+
+.navbar-text-color{
+    color: $nav-link;
+}
+
+.nav-link{
+    color: $nav-link;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}

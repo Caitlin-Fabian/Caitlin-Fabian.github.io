@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+
+
+$body-bg: #EED7C5;
+$cBrown: #7F5539;
+
+body{
+  background-color: $body-bg;
+}
+
+
+
+$theme-colors: (
+  "custom-brown": $cBrown
+);
+
+@import "bootstrap/scss/bootstrap";
+@import './navbar.scss';
+
