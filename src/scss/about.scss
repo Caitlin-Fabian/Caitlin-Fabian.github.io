@@ -1,0 +1,23 @@
+.about-section{
+    background-color: #c89f9c;
+    padding: 20px;
+    width: 50%;
+    filter: drop-shadow(0 0 0.75rem #c89f9c);
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 767px) {
+    .about-section{
+        width: 75%;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-section{
+        width: 100%;
+    }
+}

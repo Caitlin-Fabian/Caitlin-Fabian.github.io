@@ -1,61 +1,86 @@
 import CustomNav from '../components/CustomNav';
+import IntroSection from '../components/IntroSection';
+import AboutSection from '../components/AboutSection';
+import ProjectsSection from '../components/ProjectsSection';
+
 import '../scss/custom.scss';
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut,
-} from 'react-scroll-motion';
+import Container from 'react-bootstrap/Container';
+import Stack from 'react-bootstrap/Stack';
+import { Row, Col } from 'react-bootstrap';
+import profile from '../assets/profile.jpg';
 
 function Home() {
-  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const FadeUp = batch(Fade(), Move(), Sticky());
-
   return (
     <>
       <CustomNav />
-      <ScrollContainer>
-        <ScrollPage>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <span style={{ fontSize: '30px' }}>
-              Let me show you scroll animation 😀
-            </span>
-          </Animator>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <span style={{ fontSize: '30px' }}>
-              Let me show you scroll animation 😀
-            </span>
-          </Animator>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <span style={{ fontSize: '30px' }}>
-              Let me show you scroll animation 😀
-            </span>
-          </Animator>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <span style={{ fontSize: '30px' }}>
-              Let me show you scroll animation 😀
-            </span>
-          </Animator>
-        </ScrollPage>
-
-        {/* <HelloSection />
-      <AboutSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <ContactSection /> */}
-      </ScrollContainer>
+      <Container
+        fluid
+        style={{ height: '100vh' }}
+        className="d-flex justify-content-between flex-column"
+      >
+        <Row
+          fluid
+          id="home"
+          className="d-flex align-items-center"
+        >
+          <Col>
+            <div
+              style={{ marginTop: '300px', marginBottom: '200px' }}
+              className="d-flex justify-content-center align-items-center"
+            >
+              <h1 className="text-brown">Caitlin Fabian</h1>
+            </div>
+          </Col>
+          <Col className="d-flex justify-content-end">
+            <img
+              style={{
+                marginTop: '300px',
+                marginBottom: '200px',
+                marginRight: '100px',
+              }}
+              src={profile}
+              alt="Caitlin"
+              className="w-50 rounded-circle shadow-lg"
+            />
+          </Col>
+        </Row>
+        <Row
+          fluid
+          id="about"
+          className="d-flex align-items-start text-center flex-column"
+        >
+          <Col
+            style={{ marginTop: '100px', marginBottom: '200px' }}
+            className="p-0"
+          >
+            <AboutSection />
+          </Col>
+        </Row>
+        <Row
+          fluid
+          id="projects"
+          className="d-flex align-items-start text-center flex-column"
+        >
+          <Col
+            style={{ marginTop: '100px', marginBottom: '200px' }}
+            className="p-0"
+          >
+            <ProjectsSection />
+          </Col>
+        </Row>
+        <Row
+          fluid
+          id="experiences"
+          className="d-flex align-items-start text-center flex-column"
+        >
+          <Col
+            style={{ marginTop: '100px', marginBottom: '200px' }}
+            className="p-0"
+          >
+            <ProjectsSection />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

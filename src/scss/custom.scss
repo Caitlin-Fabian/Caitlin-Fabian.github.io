@@ -4,21 +4,55 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
-
-
+$card-bg: #c89f9c;
 $body-bg: #EED7C5;
 $cBrown: #7F5539;
+$Brown: #b36a5e;
+
+
 
 body{
   background-color: $body-bg;
+  font-family: 'Anton';
 }
 
+h1{
+  font-family: 'Anton';
+}
 
+.carousel-inner img {
+  margin: auto;
+  width: 30%;
+}
+
+.card{
+  box-shadow: 4px 4px 4px #7f5539;
+  margin-bottom: 10px;
+}
 
 $theme-colors: (
-  "custom-brown": $cBrown
+  "custom-brown": $cBrown,
+  "brown": $Brown
 );
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 767px) {
+  .carousel-inner img{
+    width: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-inner img{
+    width: 50%;
+  }
+}
 
 @import "bootstrap/scss/bootstrap";
 @import './navbar.scss';
+@import './about.scss';
+@import './projects.scss';
 
