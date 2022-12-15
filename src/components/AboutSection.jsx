@@ -6,7 +6,7 @@ function AboutSection() {
   return (
     <Stack fluid>
       <div>
-        <h1 className="mb-5 text-brown">About Me</h1>
+        <h1 className="mb-5 text-custom-blue">About Me</h1>
       </div>
       <div>
         <Carousel

@@ -2,10 +2,10 @@ import CustomNav from '../components/CustomNav';
 import IntroSection from '../components/IntroSection';
 import AboutSection from '../components/AboutSection';
 import ProjectsSection from '../components/ProjectsSection';
+import Experience from '../components/ExperienceSection';
 
 import '../scss/custom.scss';
 import Container from 'react-bootstrap/Container';
-import Stack from 'react-bootstrap/Stack';
 import { Row, Col } from 'react-bootstrap';
 import profile from '../assets/profile.jpg';
 
@@ -28,7 +28,7 @@ function Home() {
               style={{ marginTop: '300px', marginBottom: '200px' }}
               className="d-flex justify-content-center align-items-center"
             >
-              <h1 className="text-brown">Caitlin Fabian</h1>
+              <h1 className="text-custom-blue">Caitlin Fabian</h1>
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
@@ -70,14 +70,14 @@ function Home() {
         </Row>
         <Row
           fluid
-          id="experiences"
+          id="experience"
           className="d-flex align-items-start text-center flex-column"
         >
           <Col
             style={{ marginTop: '100px', marginBottom: '200px' }}
             className="p-0"
           >
-            <ProjectsSection />
+            <Experience />
           </Col>
         </Row>
       </Container>

@@ -6,7 +6,7 @@ import '../scss/navbar.scss';
 function CustomNav() {
   return (
     <Navbar
-      bg="custom-brown"
+      bg="nav-color"
       expand="md"
       fixed="top"
     >

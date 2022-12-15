@@ -4,10 +4,12 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
-$card-bg: #c89f9c;
-$body-bg: #EED7C5;
-$cBrown: #7F5539;
+$card-bg: #84A98C;
+$body-bg: #CAD2C5;
+$nav-color: #2F3E46;
 $Brown: #b36a5e;
+$custom-blue: #52796F;
+$custom-teal: #84A98C;
 
 
 
@@ -26,13 +28,15 @@ h1{
 }
 
 .card{
-  box-shadow: 4px 4px 4px #7f5539;
+  box-shadow: 4px 4px 4px #354F52;
   margin-bottom: 10px;
 }
 
 $theme-colors: (
-  "custom-brown": $cBrown,
-  "brown": $Brown
+  "nav-color": $nav-color,
+  "brown": $Brown,
+  "custom-blue": $custom-blue,
+  "custom-teal": $custom-teal,
 );
 
 @media (max-width: 1200px) {
