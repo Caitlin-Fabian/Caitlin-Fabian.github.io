@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import * as FaIcons from 'react-icons/fa';
 import * as RiIcons from 'react-icons/ri';
-import * as GiIcons from 'react-icons/gi';
+import { GiPassport } from 'react-icons/gi';
 
 import '../scss/custom.scss';
 
@@ -42,7 +42,7 @@ function ProjectsSection() {
           </Col>
           <Col className="d-flex justify-content-center">
             <Card style={{ width: '18rem' }}>
-              <GiIcons.GiPassport
+              <GiPassport
                 className="w-100"
                 style={{ padding: '20px' }}
                 size="40%"

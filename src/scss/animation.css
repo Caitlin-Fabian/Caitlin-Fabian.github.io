@@ -1,0 +1,10 @@
+.contact-title {
+  font-size: 150px;
+  color: #c97c5d;
+
+  -webkit-animation: floating-text 2s ease alternate infinite;
+  -moz-animation: floating-text 2s ease alternate infinite;
+  -ms-animation: floating-text 2s ease alternate infinite;
+  -o-animation: floating-text 2s ease alternate infinite;
+  animation: floating-text 2s ease alternate infinite;
+}

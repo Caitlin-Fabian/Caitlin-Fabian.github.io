@@ -22,6 +22,12 @@ h1{
   font-family: 'Anton';
 }
 
+.name{
+  font-size: 100px;
+  text-shadow:  #6E9F97 7px 7px;
+}
+
+
 .carousel-inner img {
   margin: auto;
   width: 30%;
@@ -39,13 +45,26 @@ $theme-colors: (
   "custom-teal": $custom-teal,
 );
 
-@media (max-width: 1200px) {
+.changeColor {
+  color: #3B6064;
+}
+.changeColor:hover {
+  color: #55828B;
+}
 
+
+@media (max-width: 1200px) {
+  .name{
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 767px) {
   .carousel-inner img{
     width: 40%;
+  }
+  .name{
+    font-size: 30px;
   }
 }
 
@@ -59,4 +78,5 @@ $theme-colors: (
 @import './navbar.scss';
 @import './about.scss';
 @import './projects.scss';
+@import './animation.css';
 

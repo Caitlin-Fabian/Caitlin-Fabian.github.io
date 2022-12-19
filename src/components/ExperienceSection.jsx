@@ -9,24 +9,21 @@ function Experience() {
       <div className="d-flex justify-content-end">
         <h1 className="title-experience ">Experiences</h1>
       </div>
-      <div className="bg-custom-teal">
-        <Container className="mt-5 w-75">
+      <div className="bg-custom-teal w-75 mx-auto rounded shadow-lg">
+        <Container className="mt-5 w-100 p-4 text-light">
           <Row>
             <Col>
-              <p className="text-left">
-                Web Developer
-                <div>
+              <h4 style={{ textAlign: 'left' }}>
+                Web Developer <br />
+                <span style={{ fontSize: '1rem' }}>
                   UCF-Center for Distributed Learning
                   <br />
                   Aug 2022 - Present
-                </div>
-              </p>
+                </span>
+              </h4>
             </Col>
-            <Col
-              xs={7}
-              className="d-flex justify-content-start"
-            >
-              <ul class="job-body">
+            <Col xs={7}>
+              <ul style={{ textAlign: 'left' }}>
                 <li>
                   As a part-time web developer, I learn to make accessible
                   content.
@@ -49,18 +46,19 @@ function Experience() {
           </Row>
           <Row>
             <Col className="d-flex justify-content-start">
-              <p>
+              <h4 style={{ textAlign: 'left' }}>
                 Consultant Agent
-                <div>
+                <br />
+                <span style={{ fontSize: '1rem' }}>
                   Best Buy- Geek Squad <br /> Jan 2022 - July 2022
-                </div>
-              </p>
+                </span>
+              </h4>
             </Col>
             <Col
               xs={7}
               className="d-flex justify-content-start"
             >
-              <ul class="job-body">
+              <ul style={{ textAlign: 'left' }}>
                 <li>
                   Performed diagnostics on electronics, aiding with clients'
                   electronic issues, and developing technical skills. Certified

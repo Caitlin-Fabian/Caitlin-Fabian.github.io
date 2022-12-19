@@ -9,6 +9,7 @@ function CustomNav() {
       bg="nav-color"
       expand="md"
       fixed="top"
+      variant="dark"
     >
       <Container fluid>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
