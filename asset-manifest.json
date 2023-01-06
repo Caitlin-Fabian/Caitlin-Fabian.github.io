@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.fd6791a0.css",
-    "main.js": "/new-portfolio/static/js/main.323a8033.js",
-    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
-    "static/media/profile.jpg": "/new-portfolio/static/media/profile.f349c4f9bfca49a4cb43.jpg",
-    "static/media/motorcycle.jpg": "/new-portfolio/static/media/motorcycle.ddb84aa02b434a6b1de5.jpg",
-    "static/media/shellhacks-pic.jpg": "/new-portfolio/static/media/shellhacks-pic.da538c56795102f3986b.jpg",
-    "static/media/logo.svg": "/new-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/new-portfolio/index.html",
-    "main.fd6791a0.css.map": "/new-portfolio/static/css/main.fd6791a0.css.map",
-    "main.323a8033.js.map": "/new-portfolio/static/js/main.323a8033.js.map",
-    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+    "main.css": "/static/css/main.fd6791a0.css",
+    "main.js": "/static/js/main.e010b342.js",
+    "static/js/787.8d4efb73.chunk.js": "/static/js/787.8d4efb73.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.f349c4f9bfca49a4cb43.jpg",
+    "static/media/motorcycle.jpg": "/static/media/motorcycle.ddb84aa02b434a6b1de5.jpg",
+    "static/media/shellhacks-pic.jpg": "/static/media/shellhacks-pic.da538c56795102f3986b.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.fd6791a0.css.map": "/static/css/main.fd6791a0.css.map",
+    "main.e010b342.js.map": "/static/js/main.e010b342.js.map",
+    "787.8d4efb73.chunk.js.map": "/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd6791a0.css",
-    "static/js/main.323a8033.js"
+    "static/js/main.e010b342.js"
   ]
 }
